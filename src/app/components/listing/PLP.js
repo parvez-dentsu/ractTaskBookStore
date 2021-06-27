@@ -45,7 +45,7 @@ export default class Listing extends React.Component {
   render() {
     return (
       <div className="Listing">
-        <h1>Never use the phrase: ‘buy my book’ – ever</h1>
+        <h1>DEmo heading</h1>
 
         <div>
           <h2 class="text">BUY-2-GET 50% OFF</h2>
