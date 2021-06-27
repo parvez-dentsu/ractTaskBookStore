@@ -45,7 +45,7 @@ export default class Listing extends React.Component {
   render() {
     return (
       <div className="Listing">
-        <h1>DEmo heading</h1>
+        <h1>“A Room Without Books Is Like A Body Without A Soul.” </h1>
 
         <div>
           <h2 class="text">BUY-2-GET 50% OFF</h2>
@@ -69,9 +69,14 @@ export default class Listing extends React.Component {
                       <Card.Body>
                         <Card.Title id="title_justify">{pd.title}</Card.Title>
                         <Card.Subtitle>{pd.description}</Card.Subtitle>
-                        <Card.Text>${pd.price}</Card.Text>
+                        <Card.Text>${pd.price}</Card.Text>  
 
-                        {/* <Link onClick={this.handleModalOpen}> */}
+                        {/* model button */}
+                        {/* <Link onClick={this.handleModalOpen}>
+                        <Button>Model</Button>
+                        </Link> */}
+
+                        {/* add to cart button */}
                         <Button
                           style={{ backgroundColor: "orange" }}
                           onClick={() => {
@@ -80,7 +85,7 @@ export default class Listing extends React.Component {
                         >
                           add to cart
                         </Button>
-                        {/* </Link> */}
+                        
                       </Card.Body>
                     </Card>
                   </Col>
@@ -92,6 +97,7 @@ export default class Listing extends React.Component {
                 <Button
                   type="button"
                   class="btn btn-primary btn-sm"
+                  variant="danger"
                   style={{ width: "22%", margin: "20px auto" }}
                   onClick={this.moreProduct}
                 >
