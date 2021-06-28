@@ -72,9 +72,9 @@ export default class Listing extends React.Component {
 												<Card.Text>${pd.price}</Card.Text>
 
 												{/* model button */}
-												{/* <Link onClick={this.handleModalOpen}>
-                                                   <Button>Model</Button>
-                                                   </Link> */}
+												<Link onClick={this.handleModalOpen}>
+                                                   <Button style={{marginRight:"3px"}}>Login</Button>
+                                                   </Link>
 
 												{/* add to cart button */}
 												<Button
