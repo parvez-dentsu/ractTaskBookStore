@@ -11,6 +11,7 @@ export function getAllProduct(limit) {
 			}
 		);
 }
+/*
 export function getProductDetails(id) {
 	return fetch(`http://localhost:8080/api/products/${id}`)
 		.then((res) => res.json())
@@ -23,4 +24,4 @@ export function getProductDetails(id) {
 				throw error;
 			}
 		);
-}
+}  */
